@@ -1,0 +1,57 @@
+/* Imports */
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.has-error small{color:red;font-weight:normal;margin-left:5px;}
+#jumbotron-index{margin-top:50px;background:#666;color:#eee;}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.modal-backdrop{
+    z-index: 0;
+}
+
+.form-group {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.table{
+    min-width: max-content;
+} 
+
+.form-control:invalid {
+    border-color: #ff0000;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0px 0px 10px 0px rgb(250 0 0 / 60%);
+}
+
+input[type="file"] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+#btnDeletePhoto{
+    position: relative;
+    left: 180px;
+    top: -52px;
+    background-color: #8ca3a445;
+    border: none;
+    font-weight: bolder;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0px 5px;
+    transition: .4s;
+}   
+#btnDeletePhoto:hover {
+    background-color: #525b5c94;
+    color: white;
+} 
+
